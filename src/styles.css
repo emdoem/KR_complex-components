@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+}
+
+.tabs__header {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs__label {
+  border: 1px solid black;
+
+  padding: 15px;
+  margin-left: -1px;
+}
+
+.tabs__label:first-of-type {
+  margin-left: 0;
+}
+
+.tabs__label--current {
+  font-weight: bold;
+  border-bottom-color: white;
+}
+
+.tabs__content {
+  border: 1px solid black;
+  margin-top: -1px;
+  box-sizing: border-box;
+  padding: 15px;
+}
